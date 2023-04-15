@@ -1,0 +1,30 @@
+.manage-specialty-container{
+    padding: 0 15px;
+    .ms-title{
+        text-align: center;
+        margin: 10px 0;
+        text-transform: uppercase;
+        color: #e0000b;
+        font-family: 'Montserrat';
+        font-weight: 700;
+        font-size: 22px;
+    }
+    .add-new-specialty{
+        .btn-save-specialty{
+            margin-top: 20px;
+            outline: none;
+            height: 40px;
+            width: 100px;
+            border: 2px solid #30598c;
+            font-size: 17px;
+            font-weight: 600;
+            background-color: #30598c;
+            color: #fff;
+            border-radius: 10px;
+            &:hover{
+                background-color: #fff;
+                color: #30598c;
+            }
+        }
+    }
+}

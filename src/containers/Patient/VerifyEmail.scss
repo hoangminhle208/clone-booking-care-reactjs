@@ -1,0 +1,35 @@
+.verify-email-container{
+    margin-top: 50px;
+    .infor-booking{
+        font-size: 20px;
+        font-weight: 650;
+        margin-top: 30px;
+        text-align: center;
+        text-transform: uppercase;
+        color: #af061a;
+        font-family: 'Montserrat';
+    }
+    
+}
+.return-home{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-top: 25px;
+    font-family: 'Montserrat';
+    button{
+        height: 50px;
+        width: 100px;
+        border: 2px solid #30598c;
+        outline: none;
+        font-size: 17px;
+        font-weight: 600;
+        background-color: #30598c;
+        color: #fff;
+        border-radius: 10px;
+        &:hover{
+            background-color: #fff;
+            color: #30598c;
+        }
+    }
+}

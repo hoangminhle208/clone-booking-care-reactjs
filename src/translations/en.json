@@ -1,120 +1,123 @@
 {
-    "common": {
-        "add": "Add",
-        "edit": "Edit",
-        "delete": "Delete",
-        "decentralize": "Decentralize",
-        "close": "Close",
-        "save": "Save",
-        "refresh": "Refresh",
-        "accept": "Accept",
-        "confirm": "Confirm",
-        "confirm-this-task": "Are you sure to process this task?",
-        "fail-to-load-data": "Fail to load data",
-        "unknown-error": "There was an error",
-        "internal-server-error": "Internal server error",
-        "bad-request": "Bad request",
-        "forbiden-request": "Invalid input data",
-        "fail-to-load-all-code": "Fail to load data from allcode",
-        "sum": "Sum",
-        "date-range-invalid": "Date range invalid"
+    "home-header":{
+        "speciality":"Medical speciality",
+        "searchdoctor": "Find a doctor by speciality",
+        "health-facility": "Health facilities",
+        "select-room":"Choose hospital clinic",
+        "doctor":"Doctor",
+        "select-doctor":"Select doctor",
+        "fee":"Checkup package",
+        "check-health":"General health check",
+        "support":"Support",
+        "welcome":"Welcome"
     },
-    "login": {
-        "login": "Login",
-        "username": "Username",
-        "password": "Password",
-        "userpass-wrong": "Invalid username or password!"
+    "banner":{
+        "title1":"MEDICAL PLATFORM",
+        "title2":"COMPREHENSIVE HEALTH CARE",
+        "child1":"Specialized examination",
+        "child2":"Remote examination",
+        "child3":"General examination",
+        "child4":"Medical test",
+        "child5":"Mental health",
+        "child6":"Dental examination",
+        "child7":"Surgery pack",
+        "child8":"Medical products",
+        "child9":"Corporate health"
     },
+
     "menu": {
-        "system": {
-            "header": "System",
-            "system-administrator": {
-                "header": "System Administrator",
-                "user-manage": "User manage",
-                "product-manage": "Package manage",
-                "register-package-group-or-account": "Register service package for group/account"
-            },
-            "system-parameter": {
-                "header": "System-parameter"
-            }
+        
+        "admin":{
+            "manage-user":"Manage user",
+            "manage-doctor" :"Manage doctor",
+            "manage-admin" : "Manage admin",
+            "crud":"CRUD user",
+            "crud-redux":"CRUD user redux",
+            "clinic": "Clinic",
+            "manage-clinic": "Manage clinic",
+            "handbook":"Handbook",
+            "manage-handbook":"Manage handbook",
+            "specialty":"Specialty",
+            "manage-specialty":"Manage speciality"
+        },
+        "doctor":{
+            "manage-schedule":"Manage Doctor's schedule",
+            "manage-patient":"Manage Patient's schedule"
         }
     },
-    "system": {
-        "user-manage": {
-            "fail-to-load-fouser": "Fail to load system users list",
-            "user-id": "User ID",
-            "usertype": "User type",
-            "username": "Username",
-            "fullname": "Fullname",
-            "mobile": "Phone",
-            "email": "Email",
-            "status": "Status",
-            "add-user": "Add user",
-            "edit-user": "Edit user information",
-            "password": "Password",
-            "retype-password": "Retype password",
-            "add-user-success": "Add user successfully",
-            "edit-user-success": "Change user information successfully",
-            "add-user-fail": "Fail to add user",
-            "edit-user-fail": "Fail to change user information",
-            "del-user-success": "Delete user successfully",
-            "del-user-fail": "Fail to delete user",
-            "invalid-input": {
-                "username": "Please fill in username",
-                "fullname": "Please fill in fullname",
-                "password": "Please fill in password"
-            },
-            "sure-delete-user": "Are you sure to delete this user?"
+    "manage-user": {
+        "add":"Add new user",
+        "email":"Email",
+        "password":"Password",
+        "first-name":"First name",
+        "last-name":"Last name",
+        "phone-number":"Phone",
+        "address":"Adress",
+        "gender":"Gender",
+        "position":"Position",
+        "image":"Image",
+        "role":"Role",
+        "save":"Save",
+        "edit":"Edit",
+        "upload-image":"Upload image"
+    },
+
+    "home-page":{
+        "out-standing-doctor":"Last week's featured doctor",
+        "more-infor":"MORE INFO",
+        "speciality-popular":"Speciality popular"
+        
+    },
+    "manage-schedule":{
+        "title":"Manage doctor's examination plan",
+        "chose-doctor":"Chose doctor",
+        "chose-date":"Chose date",
+        "save":"Save"
+    },
+    "patient":{
+        "detail-doctor":{
+            "schedule":"schedule",
+            "no-schedule":"Doctor does not have an appoinment in this time, please chose another time!",
+            "chose": " Chose ",
+            "book-free":" and book (free)"
         },
-        "product-manage": {
-            "fail-to-load-foprtype": "Fail to load packages list",
-            "prid": "Package ID",
-            "prname": "Package name",
-            "prtype": "Package type",
-            "status": "Status",
-            "description": "Description",
-            "effective-date": "Effective date",
-            "expiration-date": "Expiration date",
-            "add-product": "Add package",
-            "add-product-success": "Add package successfully",
-            "add-product-fail": "Fail to add package",
-            "edit-product": "Edit package information",
-            "package-decentralize": "Package decentralize",
-            "edit-product-success": "Edit package information successfully",
-            "edit-product-fail": "Fail to edit package information",
-            "delete-product-success": "Delete package successfully",
-            "delete-product-fail": "Fail to delete package",
-            "invalid-input": {
-                "prid": "Please fill in package ID",
-                "prname": "Please fill in package name"
-            },
-            "fail-to-load-decentralize-info": "Fail to load decentralize info",
-            "save-decentralize-success": "Save decentralization successfully",
-            "save-decentralize-fail": "Fail to save decentralization",
-            "sure-delete-package": "Are you sure to delete this package?"
+        "extra-infor-doctor":{
+            "text-address":"Address of examination ",
+            "price":"Examination price: ",
+            "detail":" See details",
+            "hide-price":" Hide price list",
+            "payment":"Patients can pay in the form of: "
         },
-        "register-package-group-or-acc": {
-            "assign-service-package-to-customer": "Assign service package to customer",
-            "package-name": "Package name",
-            "assign-type": "Assign type",
-            "cust-acc-group": "Customer/account group",
-            "effective-date": "Effective date",
-            "expiration-date": "Expiration date",
-            "assign": "Assign",
-            "manage-assign-groups": "Manage assign groups",
-            "group-cust-acc-name": "Group/customer account name",
-            "del-assign": "Del assign",
-            "fail-to-load-manage-assign-groups-list": "Fail to load manage assign groups list",
-            "invalid-selected": {
-                "currentfoProduct": "Invalid package",
-                "currentAssignType": "Invalid assign type",
-                "currentFoUser": "Invalid customer/account group"
-            },
-            "assign-service-package-to-customer-success": "Assign service package to customer successfully",
-            "assign-service-package-to-customer-fail": "Fail to assign service package to customer",
-            "remove-assign-success": "Unassign service package to customer successfully",
-            "remove-assign-fail": "Fail to unassign service package to customer",
-            "sure-delete-assign": "Are you sure to unassign service package to customer?"
+        "booking-modal":{
+            "title":"Information to book a medical appointment",
+            "name":"Full name",
+            "phone":"Phone number",
+            "email":"Email address",
+            "address":"Adress",
+            "reason":"Reason for examination",
+            "birthday":"Date of birth",
+            "gender":"Gender",
+            "confirm":"Confirm",
+            "cancel":"Cancel",
+            "free-booking":"Free to booking",
+            "price":"Price of medical examination: "
+        }
+    },
+    "admin":{
+        "manage-doctor":{
+            "title":"Create more infor doctor",
+            "select-doctor":"Select doctor",
+            "intro":"Introduction: ",
+            "add":"Create infor",
+            "save":"Save infor",
+            "price":"PRICE",
+            "payment":"Payment",
+            "province":"Province",
+            "nameClinic":"Clinic's name",
+            "addressClinic":"Clinic's address",
+            "note":"Note",
+            "specialty":"Select specialty",
+            "clinic":"Select clinic"
         }
     }
 }

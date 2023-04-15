@@ -1,0 +1,16 @@
+.manage-patient-container{
+    .m-p-title{
+        font-size: 20px;
+        text-transform: uppercase;
+        text-align: center;
+        margin: 10px 0;
+        font-weight: 600;
+        color: red;
+    }
+    .manage-patient-body{
+        padding: 20px 50px;
+        button{
+            margin: 10px;
+        }
+    }
+}

@@ -1,0 +1,38 @@
+.profile-doctor-container{
+    font-family: "Montserrat";
+    font-weight: 500;
+    .intro-doctor{
+        padding-left: 20px;
+        display: flex;
+        .content-left{
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center;
+            border-radius: 50%;
+            width: 100px;
+            height: 100px;
+        }
+        .content-right{
+            width: calc(100% - 80px);
+            display: flex;
+            flex-direction: column;
+            padding-left: 10px;
+            .up{
+                font-size: 17px;
+                font-weight: 600;
+                color: #337ab7;
+                font-family: 'Montserrat';
+            }
+            .down{
+                padding-top: 10px;
+                text-align: justify;
+            }
+        }
+    }
+    .price{
+        padding-top: 15px;
+        color:rgb(254, 56, 52);
+        padding-bottom: 15px;
+        font-weight: 600;
+    }
+}
