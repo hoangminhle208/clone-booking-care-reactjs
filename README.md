@@ -12,57 +12,42 @@ Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 The page will reload if you make edits.<br>
 You will also see any lint errors in the console.
 
-### `npm test`
+### Demo app
 
-Launches the test runner in the interactive watch mode.<br>
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+###Homepage
 
-### `npm run build`
+![image](https://user-images.githubusercontent.com/102012126/232497403-f0a4712b-eb33-4155-a100-22b5b16fc03b.png)
 
-Builds the app for production to the `build` folder.<br>
-It correctly bundles React in production mode and optimizes the build for the best performance.
+![image](https://user-images.githubusercontent.com/102012126/232497508-ac55e98a-1cb2-436a-945a-8c3ddde04e37.png)
 
-The build is minified and the filenames include the hashes.<br>
-Your app is ready to be deployed!
+![image](https://user-images.githubusercontent.com/102012126/232497552-4ca30c9c-63b7-48ea-aa89-421b374815dc.png)
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### Specialty
 
-### `npm run eject`
+![image](https://user-images.githubusercontent.com/102012126/232496878-1886a264-e05f-4666-942d-2d99c153d79b.png)
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+### Detail doctor
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+![image](https://user-images.githubusercontent.com/102012126/232497657-0bab0042-6050-4d60-bc66-f8e0c50cb9e8.png)
 
-Instead, it will copy all the configuration files and the transitive dependencies (Webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+### Booking appointment
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+![image](https://user-images.githubusercontent.com/102012126/232497955-8139a5b3-a834-46f0-a495-70d97859c844.png)
 
-## Learn More
+### Detail clinic
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+![image](https://user-images.githubusercontent.com/102012126/232498089-22d06076-db21-4541-8cbe-aa488d538271.png)
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+### Manage doctor
+![image](https://user-images.githubusercontent.com/102012126/232498348-6684cb4a-edab-45ec-8c9b-a2eb79d5cdec.png)
 
-### Code Splitting
+### Manage doctor's schedule
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
+![image](https://user-images.githubusercontent.com/102012126/232498498-6b051745-b935-4ec3-bd58-6e61a11d6ce6.png)
 
-### Analyzing the Bundle Size
+### Manage clinic 
+![image](https://user-images.githubusercontent.com/102012126/232498717-122a159d-3cd6-4d16-a3b5-bde6e1190b57.png)
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
+### Manage specialty
 
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `npm run build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+![image](https://user-images.githubusercontent.com/102012126/232498999-46bd270b-d6ae-45ca-8d4d-085e6bad1a6e.png)
